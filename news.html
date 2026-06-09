@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docunents</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/modern-black-amp-white-aposbapos-logo-vector-44240270.avif">
+    <style>
+        h1 {
+            font-size: 40px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            }
+
+            h2 {
+            font-size: 30px;
+            }
+
+            .established {
+            font-style: italic;
+            }
+
+            h1, h2, p {
+            text-align: center;
+            }
+
+            .menu {
+            width: 80%;
+            background-color: rgb(83, 75, 75);
+            color: white;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding: 20px;
+            max-width: 500px;
+            border-radius: 17px;
+            border: none;
+            }
+
+            img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -25px;
+            }
+            .bottom-line {
+            margin-top: 25px;
+            }
+
+            h1, h2 {
+            font-family: Impact, serif;
+            }
+
+            .item p {
+            display: inline-block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+            }
+
+            .flavor, .dessert {
+            text-align: left;
+            width: 75%;
+            }
+
+            .price {
+            text-align: right;
+            width: 25%;
+            }
+    </style>
+</head>
+<body>
+    <div class="bodyContainer">
+        <header class="header">
+            <div class="headerContainer">
+                <div class="headerSection logoContainer">
+                    <span class="logoText"><a href="index.html">
+                        DeepLearn
+                    </a></span>
+                </div>
+                <div class="headerSection searchContainer">
+                    <input type="search">
+                </div>
+                <div class="headerSection langContainer">
+                    <label for="lang">Language</label>
+                    <select name="language choice" id="lang">
+                        <option value="AM">AM</option>
+                        <option value="En">En</option>
+                    </select>
+                </div>
+                <div class="headerSection notiContainer">
+                    <button type="button">Notification</button>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="navContainer">
+                <div class="navSection">
+                    <a href="index.html">
+                        <span>Home</span>
+                    </a>
+                </div>
+                <div class="navSection">
+                    <a href="books.html">
+                        <span>Books</span>
+                    </a>
+                </div>
+                <div class="navSection">
+                    <a href="courses.html">
+                        <span>Courses</span>
+                    </a>
+                </div>
+                <div class="navSection" id="activePage">
+                    <a href="news.html">
+                        <span>Docs</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <aside class="aside">
+            <div class="asideContainer">
+                <div class="asideSection"><a href="#">
+                    Account
+                </a></div>
+                <div class="asideSection"><a href="#">
+                    Setting
+                </a></div>
+                <div class="asideSection"><a href="#">
+                    Help
+                </a></div>
+                <div class="asideSection"><a href="#">
+                    Logout
+                </a></div>
+            </div>
+        </aside>
+        <main class="menu">
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+        <footer class="footer">
+        <address>
+          <p>
+            <a href="#" target="_blank">Visit our website</a>
+          </p>
+          <p class="address">Ethiopia AA</p>
+        </address>
+        <p><a href="#">&copy;Copyright</a></p>
+      </footer>
+    </div>
+</body>
+</html>
